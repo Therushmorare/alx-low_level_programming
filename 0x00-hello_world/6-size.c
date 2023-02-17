@@ -3,15 +3,17 @@
 /**
  * main - main function to execute the main code
  *
- * Return: 0 is the value to be returned by the main function
+ * Return: 0 is the value to be returned by main function
  */
 
 int main(void)
 {
-	printf("Size of a char: %lu byte(s)", sizeof(char));
-	printf("Size of an int: %lu byte(s)", sizeof(int));
-	printf("Size of a long int: %lu byte(s)", sizeof(long int));
-	printf("Size of a long long int: %lu byte(s)", sizeof(long long int));
-	printf("Size of a float: %lu byte(s)", sizeof(float));
-	return (0);
+    printf("Size of char: %zu byte(s)\n", sizeof(char));
+    printf("Size of short: %zu byte(s)\n", sizeof(short));
+    printf("Size of int: %zu byte(s)\n", sizeof(int));
+    printf("Size of long: %zu byte(s)\n", sizeof(long));
+    printf("Size of long long: %zu byte(s)\n", sizeof(long long));
+    printf("Size of float: %zu byte(s)\n", sizeof(float));
+
+    return (0);
 }
