@@ -4,7 +4,7 @@
 
 /**
  *_strlen - checks for length of string
- *@*s: pointer to be used
+ *@s: pointer to be used
  *
  *Return: always return zero
  */
