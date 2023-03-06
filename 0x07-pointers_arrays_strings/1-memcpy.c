@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *memcpy - copy memory to another var
+ *_memcpy - copy memory to another var
  *@dest: the destination where memory is to be copied to
  *@src: source of the copied memory
  *@n: the size of the buffer
@@ -10,7 +10,7 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned i;
+	unsigned int i;
 
 	for (i = 0; i < n ; i++)
 	{
