@@ -48,5 +48,7 @@ char *str_concat(char *s1, char *s2)
 		s2++;
 	}
 
+	str_arr[size] = '\0';
+
 	return (str_arr);
 }
